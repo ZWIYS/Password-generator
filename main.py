@@ -10,7 +10,8 @@ while True:
         funcs.generator()
 
     elif command == '2':
-        print('program is off')
+        funcs.f.close()
+        print('finishing...')
         break
 
     else:
